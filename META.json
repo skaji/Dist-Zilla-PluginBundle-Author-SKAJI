@@ -26,7 +26,8 @@
       "package" : [
          "Dist::Zilla::Plugin::_NameFromDirectory",
          "Dist::Zilla::Plugin::_ReadmeAnyFromPod",
-         "Dist::Zilla::Plugin::_StaticInstall"
+         "Dist::Zilla::Plugin::_StaticInstall",
+         "Pod::Markdown::_Github"
       ]
    },
    "prereqs" : {
