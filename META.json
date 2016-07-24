@@ -1,0 +1,81 @@
+{
+   "abstract" : "BeLike::SKAJI when you build your dists",
+   "author" : [
+      "Shoichi Kaji <skaji@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.006, CPAN::Meta::Converter version 2.150005",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Dist-Zilla-PluginBundle-Author-SKAJI",
+   "no_index" : {
+      "directory" : [
+         "author",
+         "eg",
+         "examples",
+         "inc",
+         "share",
+         "t",
+         "xt"
+      ],
+      "package" : [
+         "Dist::Zilla::Plugin::_NameFromDirectory",
+         "Dist::Zilla::Plugin::_ReadmeAnyFromPod",
+         "Dist::Zilla::Plugin::_StaticInstall"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "File::ShareDir::Install" : "0.06"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Archive::Tar::Wrapper" : "0",
+            "Devel::PPPort" : "3.35",
+            "Dist::Zilla" : "6.000",
+            "Dist::Zilla::Plugin::CheckChangesHasContent" : "0",
+            "Dist::Zilla::Plugin::CopyFilesFromBuild" : "0",
+            "Dist::Zilla::Plugin::CopyFilesFromRelease" : "0",
+            "Dist::Zilla::Plugin::Git" : "2.012",
+            "Dist::Zilla::Plugin::Git::Contributors" : "0.009",
+            "Dist::Zilla::Plugin::GithubMeta" : "0",
+            "Dist::Zilla::Plugin::LicenseFromModule" : "0.05",
+            "Dist::Zilla::Plugin::ModuleBuildTiny" : "0",
+            "Dist::Zilla::Plugin::Prereqs::FromCPANfile" : "0.06",
+            "Dist::Zilla::Plugin::ReadmeAnyFromPod" : "0",
+            "Dist::Zilla::Plugin::ReversionOnRelease" : "0.04",
+            "Dist::Zilla::Plugin::Test::Compile" : "0",
+            "Dist::Zilla::Plugin::VersionFromModule" : "0",
+            "Dist::Zilla::Role::PluginBundle::Config::Slicer" : "0",
+            "Dist::Zilla::Role::PluginBundle::PluginRemover" : "0",
+            "File::ShareDir::ProjectDistDir" : "0",
+            "Pod::Markdown::Github" : "0",
+            "perl" : "v5.14.0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/skaji/Dist-Zilla-PluginBundle-Author-SKAJI/issues"
+      },
+      "homepage" : "https://github.com/skaji/Dist-Zilla-PluginBundle-Author-SKAJI",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/skaji/Dist-Zilla-PluginBundle-Author-SKAJI.git",
+         "web" : "https://github.com/skaji/Dist-Zilla-PluginBundle-Author-SKAJI"
+      }
+   },
+   "version" : "0.001",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 3.0217",
+   "x_static_install" : 1
+}
+
